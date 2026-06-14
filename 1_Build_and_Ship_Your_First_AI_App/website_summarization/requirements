@@ -1,0 +1,9 @@
+pip3 install openai
+pip3 install gradio
+python3 -m pip install huggingface_hub==0.25.2
+python3 -m pip install beautifulsoup4
+
+
+# The -m flag tells Python to run a module as a script.
+# "pip install gradio" you might accidentally install packages into a different Python environment than the one running your app.
+# "python3 -m pip install gradio" guarantees that the package is installed into the same Python environment that python3 uses.
